@@ -1,0 +1,15 @@
+#biblioImages {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	margin: auto;
+}
+img:hover {
+	transform: scale(1.5);
+}
+img {
+	width: 100px;
+	height: 100px;
+}
+div {
+	margin: 50px;
+}
